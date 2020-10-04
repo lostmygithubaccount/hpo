@@ -55,6 +55,9 @@ def evaluate_model(model, X_test, y_test):
 # start mlflow run
 with mlflow.start_run():
 
+    print("*" * 60)
+    print("\n\n")
+
     # enable auto logging
     mlflow.lightgbm.autolog()
 
@@ -87,9 +90,6 @@ with mlflow.start_run():
         "seed": args.seed,
         "verbose": args.verbose,
     }
-
-    print("*" * 60)
-    print("\n\n")
 
     # read in data
     df = pd.read_csv(args.data_dir)
