@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/Users/cody/miniconda3/envs/temp/bin/python"
+    "python.pythonPath": "/Users/cody/miniconda3/envs/temp/bin/python",
+    "ai.azureml.defaultWorkspaceId": "/subscriptions/6560575d-fa06-4e7d-95fb-f962e74efd7a/resourceGroups/cody-eastus-rg/providers/Microsoft.MachineLearningServices/workspaces/AzureML"
 }
