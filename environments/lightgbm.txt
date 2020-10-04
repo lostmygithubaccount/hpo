@@ -1,0 +1,7 @@
+pandas
+lightgbm
+ipykernel
+matplotlib
+scikit-learn
+azureml-mlflow
+azureml-dataprep
