@@ -17,3 +17,4 @@ dask
 bokeh
 dask-ml
 optuna
+plotly
